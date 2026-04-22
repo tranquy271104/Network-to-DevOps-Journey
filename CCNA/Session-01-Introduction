@@ -1,50 +1,46 @@
-# Session 01: Introduction to Networking
+# Buổi 1: Tổng quan về Hệ thống Mạng (Introduction to Networking)
 
-## 1. Network Components (Thành phần hệ thống)
+## 1. Các thành phần trong hệ thống mạng
 
-### 🖥️ Hosts (End Devices - Thiết bị đầu cuối)
-Devices that create, receive, or process data.
-- Examples: PC, Laptop, Printer, Servers.
-- Types of Servers:
-  - Mail Server
-  - Web Server
-  - File Server
+### 🖥️ Thiết bị đầu cuối (Host / End Devices)
+Là các thiết bị có khả năng tạo, nhận, hoặc xử lý dữ liệu.
+- Ví dụ: PC, Laptop, Máy in, Các loại máy chủ (Server).
+- Phân loại Server cơ bản:
+  - Mail Server (Máy chủ email)
+  - Web Server (Máy chủ web)
+  - File Server (Máy chủ lưu trữ file)
 
-### 🌐 Intermediate Devices (Thiết bị trung gian)
-- Switch: Connects devices within a LAN.
-- Router: Connects different networks and finds the best path for data.
-- Modem: Converts signals for internet connection.
-- Firewall: Monitors and filters incoming/outgoing traffic for security.
-
-
-
----
-
-## 2. Transmission Media (Phương tiện truyền dẫn)
-
-| Copper Cable | Uses electrical signals. | Cat 5: Max 100Mbps. | Cat 5e: Max 1000Mbps (100m). | Cat 6: Max 10Gbps (100m), less interference. |
-| Fiber Optic | Uses light signals. | Long distance, high speed, very low attenuation. |
-| Wireless | Uses radio waves. | Wi-Fi, Bluetooth, Infrared. |
-
-> Vocabulary Note:
-> - Bandwidth (Băng thông): The amount of data transmitted in a fixed amount of time (measured in Mbps - Megabits per second).
-> - Attenuation (Suy hao): The loss of signal strength as it travels through a medium.
-
----
-
-## 3. Network Topology (Sơ đồ mạng)
-
-- Physical Topology: The physical layout of devices and cables (vị trí lắp đặt, đi dây).
-- Logical Topology: How data flows through the network and the protocols used (địa chỉ IP, chức năng, giao thức).
+### 🌐 Thiết bị trung gian (Intermediate Devices)
+- Switch: Chuyển tiếp dữ liệu giữa các thiết bị trong cùng một mạng nội bộ.
+- Router: Nối các mạng khác nhau lại với nhau và tìm đường đi ngắn nhất cho dữ liệu.
+- Modem: Chuyển đổi tín hiệu để kết nối ra ngoài Internet.
+- Firewall (Tường lửa): Kiểm soát, lọc dữ liệu ra/vào để bảo mật mạng.
 
 
 
----
+## 2. Phương tiện truyền dẫn (Transmission Media)
 
-## 4. Network Design Standards (Tiêu chuẩn thiết kế)
+- Cáp đồng (Copper Cable)   -> Truyền bằng tín hiệu điện. | Cat 5: Tối đa 100Mbps , Cat 5e: Tối đa 1000Mbps (100m) , Cat 6: Tối đa 10Gbps (100m), ít suy hao hơn. 
+- Cáp quang (Fiber Optic)   -> Truyền bằng tín hiệu ánh sáng. | Truyền khoảng cách xa, tốc độ cao, cực ít suy hao. 
+- Mạng không dây (Wireless) -> Truyền bằng sóng vô tuyến (điện từ). | Wi-Fi, Bluetooth, Hồng ngoại. 
 
-To build a professional system, we must ensure:
-1. Fault Tolerance & Redundancy: Ability to keep running if a component fails (Khả năng dự phòng).
-2. Scalability: Ability to grow in the future (Khả năng mở rộng).
-3. Quality of Service (QoS): Managing traffic to ensure performance for critical apps.
-4. Security: Protecting data from unauthorized access.
+Thuật ngữ cần nhớ:
+> - Bandwidth (Băng thông): Lượng dữ liệu truyền được trong 1 đơn vị thời gian (thường đo bằng Mbps - Megabit per second).
+> - Attenuation (Suy hao): Sự giảm cường độ tín hiệu khi truyền đi trong môi trường vật lý.
+
+
+
+## 3. Sơ đồ mạng (Topology)
+
+- Physical Topology (Bản vẽ vật lý): Thể hiện kết nối vật lý, cách đi dây cáp và vị trí đặt thiết bị thực tế ở đâu.
+- Logical Topology (Bản vẽ logic): Thể hiện về mặt giao thức, chức năng, địa chỉ IP và cách luồng dữ liệu chạy trong mạng.
+
+
+
+## 4. Tiêu chuẩn thiết kế hệ thống mạng
+
+Một hệ thống mạng chuẩn chỉnh cần đáp ứng 4 yếu tố:
+1. Khả năng dự phòng (Fault Tolerance): Khả năng xử lý lỗi, đảm bảo mạng vẫn chạy nếu một thiết bị hỏng.
+2. Khả năng mở rộng (Scalability): Dễ dàng thêm thiết bị mới trong tương lai mà không phải đập đi xây lại.
+3. Chất lượng dịch vụ (Quality of Service - QoS): Ưu tiên băng thông cho các dữ liệu quan trọng.
+4. Bảo mật (Security): Chống lại các truy cập trái phép.
