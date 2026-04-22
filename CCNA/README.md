@@ -10,8 +10,8 @@ Tiến độ hiện tại: Đang cập nhật...
 
 ### Module 1: Network Fundamentals (Nền tảng cơ bản)
 Hiểu về các thiết bị, mô hình mạng và hệ điều hành mạng.
-- [x] [Day 1: Giới thiệu hệ thống mạng (LAN, WAN, Topology)](./Session-01-Introduction)
-- [ ] [Day 2 - 4: OS & Basic Configuration (Cấu hình Cisco IOS cơ bản)](./Session-02-OS-Basic-Config)
+- [x] [Day 1: Giới thiệu hệ thống mạng (LAN, WAN, Topology)](./Notes/Session-01-Introduction.md)
+- [ ] [Day 2 - 4: OS & Basic Configuration (Cấu hình Cisco IOS cơ bản)](./Notes/Session-02-OS-Basic-Config.md)
 - [ ] Day 5 - 6: Mô hình OSI, TCP/IP & Network Protocols
 
 ### Module 2: IP Addressing & Ethernet (Địa chỉ IP và Chuyển mạch cơ bản)
