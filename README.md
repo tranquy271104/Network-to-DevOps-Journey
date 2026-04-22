@@ -1,47 +1,58 @@
-# 🚀 The Journey: Network -> System -> Cloud -> DevOps
-
-Welcome to my learning repository! This workspace documents my technical journey and hands-on projects as I build a solid foundation from Networking all the way to DevOps.
-
-**🎯 Long-term Goal:** Digital Infrastructure Architect by 2030.
+<div align="center">
+  <h1>🚀 The Journey: Network -> System -> Cloud -> DevOps</h1>
+  <p><i>Building the foundation for Next-Gen Digital Infrastructure</i></p>
+</div>
 
 ---
 
-## 🛠️ Tech Stack & Tools Explorer
-*(Tools I am currently learning and using)*
+## 👨‍💻 About Me & Vision
+Welcome to my engineering workspace! This repository serves as a live document of my technical journey. I am currently building a rock-solid foundation from the ground up, starting with core networking and scaling up to cloud automation.
 
-![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white)
+* **🎯 Long-term Goal:** Digital Infrastructure Architect by 2030.
+* **🔭 Current Focus:** Mastering Cisco CCNA routing/switching and local virtualization automation (Vagrant + VMware).
+* **💡 Interests:** Software-Defined Networking (SDN), System Architecture, and Infrastructure as Code (IaC).
+
+---
+
+## 🛠️ Tech Stack Matrix
+*(Technologies I am actively learning and applying in my labs)*
+
+### 🐧 Infrastructure & OS
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white)
+
+### 🖧 Networking
+![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white)
+
+### 💻 Development & Scripting
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ---
 
-## 🗺️ Learning Roadmap
+## 🗺️ Master Plan & Directory
 
-### Phase 1: Core Networking (CCNA Foundation)
-Building the absolute basics of how computers communicate.
+Đây là lộ trình tổng thể. Chi tiết ghi chép và cấu hình Lab được lưu trữ trong các thư mục tương ứng.
 
-- [x] **Day 1:** Introduction to Network (LAN, WAN, Topology)
-- [ ] **Day 2-4:** OS and Basic Configuration
-- [ ] **Day 5-6:** OSI Model & Network Protocols
-- [ ] **Day 7-11:** IPv4 Deep Dive & Subnetting
-- [ ] **Day 12:** IPv6 Basics
-- [ ] *... (I will update this list as I progress)*
+### 🟢 Phase 1: Core Networking (Current)
+Building the absolute basics of how data flows across physical and logical devices.
+* 📂 **[Go to CCNA Module >>](./CCNA)** *(Click here for daily notes, topology setups, and routing labs)*
 
-### Phase 2: System Administration & Scripting ⏳
-- Focus: Linux internals, Bash scripting, and local virtualization environments.
+### 🟡 Phase 2: System Administration & Virtualization
+Managing resources, processes, and automated environments.
+* *Status: Planning (Focusing on Linux internals and Vagrant automation)*
 
-### Phase 3: Cloud Computing ⏳
-- Focus: Deploying infrastructure on public clouds.
+### 🔵 Phase 3: Cloud Computing
+Deploying scalable infrastructure on public clouds (VPC, EC2, IAM).
+* *Status: Up next...*
 
-### Phase 4: DevOps & Automation ⏳
-- Focus: CI/CD pipelines, Docker, and Infrastructure as Code.
+### 🟣 Phase 4: DevOps & Automation
+Connecting the dots with CI/CD pipelines, Docker containerization, and Terraform (IaC).
+* *Status: Future milestone...*
 
 ---
-
-## 📝 Session Notes
-*(Click on the folders above to see my detailed notes and lab files for each session)*
-
-* **Session 1:** Covered the basic definitions of networks and topology types.
+> *"You can't automate what you don't understand. Start from the packets."*
