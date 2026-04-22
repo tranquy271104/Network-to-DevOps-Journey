@@ -1,0 +1,17 @@
+Bài 1: Phân loại thiết bị (Device Categorization)
+Cho danh sách các thiết bị sau: iPhone 15, Cisco Switch 2960, Server Dell R740, HP LaserJet Printer, Home Modem (Viettel/FPT), Cisco Router 4000.
+Yêu cầu: Hãy chia chúng thành 2 nhóm:
+End Devices (Thiết bị đầu cuối): ...
+Intermediate Devices (Thiết bị trung gian): ...
+
+Bài 2: Tư vấn hạ tầng (Media Selection)
+Bạn nhận nhiệm vụ lắp đặt mạng cho một văn phòng có 2 khu vực:
+Khu vực A: Các máy tính bàn cách Switch khoảng 30m, yêu cầu tốc độ ổn định 1Gbps, chi phí tối ưu.
+Khu vực B: Nối mạng giữa 2 tòa nhà cách nhau 500m, yêu cầu tốc độ cao và không bị nhiễu điện từ.
+Yêu cầu: Bạn sẽ chọn loại dây dẫn nào cho mỗi khu vực? (Ví dụ: Cat 5e, Cat 6 hay Cáp quang?). Giải thích ngắn gọn lý do chọn.
+
+Bài 3: Tư duy thiết kế (Network Design)
+Giả sử bạn đang thiết kế mạng cho trường PTIT. Hệ thống hiện tại chỉ có 1 con Router duy nhất để cả trường dùng. Nếu con Router này bị hỏng, toàn bộ trường mất mạng.
+Yêu cầu:
+Tình huống này đang vi phạm tiêu chuẩn nào trong 4 tiêu chuẩn thiết kế hệ thống mạng (Fault Tolerance, Scalability, QoS, Security)?
+Bạn đề xuất giải pháp gì để khắc phục? (Gợi ý: Nhìn vào mục Khả năng dự phòng).
