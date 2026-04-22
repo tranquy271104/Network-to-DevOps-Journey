@@ -1,43 +1,25 @@
-# Lab Session 02: OS & Basic Configuration
-
-## Đề bài & Đáp án
-
 ### Bài 1: Chọn phương thức kết nối (Access Methods)
-**Tình huống:** Công ty bạn có một Data Center đặt tại Singapore. Bạn đang ngồi làm việc (Work From Home) tại Việt Nam. Công ty vừa mua một con Switch Cisco mới tinh chưa có bất kỳ cấu hình nào, nhờ kỹ thuật viên bên đó cắm điện và cắm dây mạng giúp.
+Tình huống: Công ty bạn có một Data Center đặt tại Singapore. Bạn đang ngồi làm việc (Work From Home) tại Việt Nam. Công ty vừa mua một con Switch Cisco mới tinh chưa có bất kỳ cấu hình nào, nhờ kỹ thuật viên bên đó cắm điện và cắm dây mạng giúp.
 
-**Câu hỏi:**
+Câu hỏi:
 1. Kỹ thuật viên ở Singapore phải dùng phương thức nào (Console, Telnet, hay SSH) để cấu hình bước đầu cho con Switch này? Vì sao?
 2. Sau khi con Switch đã được cài đặt IP và nối mạng thành công, bạn từ Việt Nam muốn truy cập vào nó để cấu hình tiếp thì nên dùng Telnet hay SSH? Giải thích lý do.
 
-**Đáp án của bạn:**
-1. ...
-2. ...
-
----
 
 ### Bài 2: Nhận diện các Mode (CLI Modes)
-**Yêu cầu:** Điền tên chế độ (Mode) tương ứng với các dấu hiệu nhận biết (Prompt) sau và nêu ngắn gọn quyền hạn của chế độ đó.
+Yêu cầu: Điền tên chế độ (Mode) tương ứng với các dấu hiệu nhận biết (Prompt) sau và nêu ngắn gọn quyền hạn của chế độ đó.
 
-1. `Switch>` : Chế độ gì? Quyền hạn ra sao?
-2. `Switch#` : Chế độ gì? Quyền hạn ra sao?
-3. `Switch(config)#` : Chế độ gì? Quyền hạn ra sao?
+1. Switch> : Chế độ gì? Quyền hạn ra sao?
+2. Switch# : Chế độ gì? Quyền hạn ra sao?
+3. Switch(config)# : Chế độ gì? Quyền hạn ra sao?
 
-**Đáp án của bạn:**
-1. ...
-2. ...
-3. ...
 
----
 
 ### Bài 3: Kịch bản cấu hình thực tế (Provisioning Script)
-**Tình huống:** Bạn viết một kịch bản để cấu hình nhanh cho một Router mới. 
+Tình huống: Bạn viết một kịch bản để cấu hình nhanh cho một Router mới. 
 
-**Yêu cầu:** Viết lại chính xác từng dòng lệnh theo thứ tự để thực hiện luồng công việc sau:
-1. Đang ở **User Mode**, xin quyền nâng lên **Privileged Mode**.
-2. Từ Privileged Mode, truy cập vào **Global Config Mode**.
-3. Đổi tên thiết bị thành `Core-Router-PTIT`.
-4. Thoát thẳng một mạch về lại **Privileged Mode**.
-
-**Đáp án của bạn (Viết dưới dạng Code block):**
-```text
-(Viết các câu lệnh vào đây)
+Yêu cầu: Viết lại chính xác từng dòng lệnh theo thứ tự để thực hiện luồng công việc sau:
+1. Đang ở User Mode, xin quyền nâng lên Privileged Mode.
+2. Từ Privileged Mode, truy cập vào Global Config Mode.
+3. Đổi tên thiết bị thành Core-Router-PTIT.
+4. Thoát thẳng một mạch về lại Privileged Mode.
