@@ -4,17 +4,17 @@
 
 ### 🖥️ Hosts (End Devices - Thiết bị đầu cuối)
 Devices that create, receive, or process data.
-- **Examples:** PC, Laptop, Printer, Servers.
-- **Types of Servers:**
+- Examples: PC, Laptop, Printer, Servers.
+- Types of Servers:
   - Mail Server
   - Web Server
   - File Server
 
 ### 🌐 Intermediate Devices (Thiết bị trung gian)
-- **Switch:** Connects devices within a LAN.
-- **Router:** Connects different networks and finds the best path for data.
-- **Modem:** Converts signals for internet connection.
-- **Firewall:** Monitors and filters incoming/outgoing traffic for security.
+- Switch: Connects devices within a LAN.
+- Router: Connects different networks and finds the best path for data.
+- Modem: Converts signals for internet connection.
+- Firewall: Monitors and filters incoming/outgoing traffic for security.
 
 
 
@@ -22,22 +22,20 @@ Devices that create, receive, or process data.
 
 ## 2. Transmission Media (Phương tiện truyền dẫn)
 
-| Media Type | Description | Key Specs |
-| :--- | :--- | :--- |
-| **Copper Cable** | Uses electrical signals. | **Cat 5:** Max 100Mbps.<br>**Cat 5e:** Max 1000Mbps (100m).<br>**Cat 6:** Max 10Gbps (100m), less interference. |
-| **Fiber Optic** | Uses light signals. | Long distance, high speed, very low attenuation. |
-| **Wireless** | Uses radio waves. | Wi-Fi, Bluetooth, Infrared. |
+| Copper Cable | Uses electrical signals. | Cat 5: Max 100Mbps. | Cat 5e: Max 1000Mbps (100m). | Cat 6: Max 10Gbps (100m), less interference. |
+| Fiber Optic | Uses light signals. | Long distance, high speed, very low attenuation. |
+| Wireless | Uses radio waves. | Wi-Fi, Bluetooth, Infrared. |
 
-> **Vocabulary Note:**
-> - **Bandwidth (Băng thông):** The amount of data transmitted in a fixed amount of time (measured in Mbps - Megabits per second).
-> - **Attenuation (Suy hao):** The loss of signal strength as it travels through a medium.
+> Vocabulary Note:
+> - Bandwidth (Băng thông): The amount of data transmitted in a fixed amount of time (measured in Mbps - Megabits per second).
+> - Attenuation (Suy hao): The loss of signal strength as it travels through a medium.
 
 ---
 
 ## 3. Network Topology (Sơ đồ mạng)
 
-- **Physical Topology:** The physical layout of devices and cables (vị trí lắp đặt, đi dây).
-- **Logical Topology:** How data flows through the network and the protocols used (địa chỉ IP, chức năng, giao thức).
+- Physical Topology: The physical layout of devices and cables (vị trí lắp đặt, đi dây).
+- Logical Topology: How data flows through the network and the protocols used (địa chỉ IP, chức năng, giao thức).
 
 
 
@@ -46,7 +44,7 @@ Devices that create, receive, or process data.
 ## 4. Network Design Standards (Tiêu chuẩn thiết kế)
 
 To build a professional system, we must ensure:
-1. **Fault Tolerance & Redundancy:** Ability to keep running if a component fails (Khả năng dự phòng).
-2. **Scalability:** Ability to grow in the future (Khả năng mở rộng).
-3. **Quality of Service (QoS):** Managing traffic to ensure performance for critical apps.
-4. **Security:** Protecting data from unauthorized access.
+1. Fault Tolerance & Redundancy: Ability to keep running if a component fails (Khả năng dự phòng).
+2. Scalability: Ability to grow in the future (Khả năng mở rộng).
+3. Quality of Service (QoS): Managing traffic to ensure performance for critical apps.
+4. Security: Protecting data from unauthorized access.
