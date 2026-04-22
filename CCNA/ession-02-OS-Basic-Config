@@ -1,0 +1,64 @@
+# Buổi 2: Hệ điều hành và Cấu hình cơ bản (OS & Basic Configuration)
+
+## 1. Giao diện điều khiển (Control Interfaces)
+
+Có 2 loại giao diện chính để tương tác và cấu hình thiết bị:
+
+- **GUI (Graphical User Interface - Giao diện đồ họa):** - Giao diện trực quan (như Windows, iOS, Android...).
+  - Thân thiện, dễ sử dụng cho người dùng cuối.
+- **CLI (Command Line Interface - Giao diện dòng lệnh):** - Điều khiển thiết bị hoàn toàn bằng cách gõ lệnh (như màn hình đen của Linux/Cisco).
+  - Khó sử dụng lúc đầu, nhưng tốc độ xử lý nhanh và cực kỳ cần thiết cho Tự động hóa (Automation).
+
+---
+
+## 2. Phương thức truy cập thiết bị (Device Access Methods)
+
+Để cấu hình một Switch hoặc Router, chúng ta có 2 cách kết nối chính:
+
+### Cắm cáp trực tiếp (Console)
+- Dùng dây cáp Console cắm từ máy tính thẳng vào cổng Console của thiết bị mạng.
+- **Ưu điểm:** Dễ dàng, kết nối được ngay cả khi thiết bị chưa có mạng hoặc bị lỗi mạng.
+- **Nhược điểm:** Phải ngồi trực tiếp cạnh thiết bị (khoảng cách ngắn, thiếu linh hoạt).
+
+### Truy cập từ xa qua mạng (Remote Access)
+- **Ưu điểm:** Cấu hình thiết bị từ bất kỳ đâu, linh hoạt.
+- **Nhược điểm:** Phải cấu hình IP và mạng phải thông suốt thì mới truy cập được.
+- Có 2 giao thức truy cập từ xa phổ biến:
+  - **Telnet:** Dữ liệu truyền đi dưới dạng văn bản rõ (clear-text) 👉 **Không bảo mật**, dễ bị nghe lén.
+  - **SSH (Secure Shell):** Dữ liệu được mã hóa toàn bộ trên đường truyền 👉 **Rất bảo mật**, tiêu chuẩn bắt buộc khi đi làm.
+
+---
+
+## 3. Các chế độ của Cisco IOS (Cisco IOS Modes)
+
+Hệ điều hành của Cisco chia thành các "cửa ải" (mode) khác nhau. Bạn phải vào đúng mode mới gõ được lệnh tương ứng.
+
+
+
+| Tên Chế Độ (Mode) | Dấu hiệu nhận biết | Chức năng |
+| :--- | :--- | :--- |
+| **User Mode** | `Router>` | Chế độ thấp nhất. Chỉ xem được vài thông số cơ bản (như ping). KHÔNG thể cấu hình. |
+| **Privileged Mode** | `Router#` | Chế độ đặc quyền. Xem được TOÀN BỘ thông số của thiết bị. KHÔNG thể cấu hình. |
+| **Global Config Mode** | `Router(config)#` | Chế độ cấu hình toàn cục. Bắt đầu có thể thay đổi cấu hình làm ảnh hưởng đến toàn bộ thiết bị. |
+| **Sub-config Mode** | `Router(config-if)#` | Chế độ cấu hình chi tiết cho một phần cụ thể (ví dụ: đi sâu vào cấu hình riêng cho 1 cổng mạng). |
+
+---
+
+## 4. Các câu lệnh cơ bản (Basic Commands)
+
+Dưới đây là cách di chuyển qua lại giữa các mode và một số lệnh khởi động:
+
+```text
+! 1. Đi từ User Mode lên Privileged Mode
+Router> enable
+
+! 2. Đi từ Privileged Mode vào Global Config Mode
+Router# configure terminal
+
+! 3. Đổi tên thiết bị (phải ở mode config)
+Router(config)# hostname TranQuy-Router
+TranQuy-Router(config)# 
+
+! 4. Thoát ra các mode
+TranQuy-Router(config)# exit      ! Lùi lại 1 mode liền trước (về Privileged mode)
+TranQuy-Router(config)# end       ! Thoát hẳn về Privileged mode (hoặc dùng Ctrl+C / Ctrl+Z)
